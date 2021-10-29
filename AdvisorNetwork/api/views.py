@@ -1,7 +1,7 @@
 from django.http.response import HttpResponse
 from django.shortcuts import render
 
-from .models import Advisor, Booking, User, Booking
+from .models import Advisor, User, Booking
 
 from rest_framework.views import APIView
 from rest_framework.response import Response
